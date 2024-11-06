@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif; /*Tipo de fonte*/
+            background-color: dimgray; /*Cor de fundo*/
+            margin: 0px; /*Margem*/
+        }
+        h1#tt{
+            background-color: rgba(218, 19, 19, 0.729); /*Cor de fundo*/
+            color: white; /*Cor da letra*/
+            padding: 1px 20px; 
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 5px; /*Arredondamento da borda*/
+            box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.334); /*Sombra*/
+        }
+        nav{
+            background-color: rgb(127, 127, 127);
+            padding: 3px;
+            box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.216); /*inset a sombra vai para dentro*/ 
+            /*DICA: Diminuir a transparencia da sombra deixa melhor*/
+        }
+        nav > a{
+            text-decoration: none; /*Tira aquela linha embaixo do texto*/
+            color: white;
+            font-weight: bold; /*Grossura da fonte*/
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline; /*Adiciona aquela linha embaixo do texto*/
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px; /*Arredondar*/
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: lightblue;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        section#noticias{
+            box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.151);
+
+        }
+        div#bola{ /*COMO FAZER UMA BOLA :D*/
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%; /*Isso que faz ficar redondo igual uma bola*/
+        }
+    </style>
+</head>
+<body>
+    <h1 id="tt">Tags semânticas</h1>
+    <header> <!--Cabeçalho-->
+        <h1>Meu site</h1>
+        <nav> <!--Tag para site-->
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+
+    <main> <!--Conteudo principal-->
+        <section id="assuntos">
+            <p>Esportes Politica e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse deleniti optio doloremque ducimus tempora nesciunt, quam itaque ea voluptates voluptatibus necessitatibus at atque adipisci! Sit quo omnis dolores qui placeat.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer> <!--Rodapé-->
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    
+    <div id="bola">
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+*{
+    font-family: Arial, Helvetica, sans-serif; /*Estilo de fonte*/
+}
+
+body{
+    background-image: linear-gradient(to right, #FAE360, #F0F1DF); /*Degrade*/
+}
+
+main{
+    background-color: white; /*Cor do fundo*/
+    border-radius: 10px;/*Bordas arredondadas*/
+    box-shadow: 5px 5px 1215px #995316; /*Sombra: Lado, Baixo, Espalhamento, Cor*/
+    width: 600px; /*Largura */
+    padding: 20px;/*Deadzone em volta do conteudo*/
+    margin: auto; /*Sempre deixa no meio o conteudo*/
+}
+
+h1{
+    color: #F48E35;/*Cor da letra*/
+    text-align: center; /*Texto no centro*/
+    text-shadow: 1px 1px 2px #92511898; /*Sombra no texto*/
+}
+
+h2{
+    color: #8FBDDF;/*Cor da letra*/
+}
+
+p{
+    text-align: justify; /*Um tipo de alinhamento de texto*/
+}

@@ -1,0 +1,7 @@
+*{ /* configuração global */
+    height: 100%; 
+}
+
+body{
+    background-image: linear-gradient(120deg,#E23366 1%, #AF3296, #4B60D4 50%, #FEC45C,#F56036); /*comando para fazer degrade ('deg' de grau, cor 1 1% é o tamanho q a cor ocupa, cor 2, cor 3 50% é o tamanho que a cor ocupa...)*/
+}
